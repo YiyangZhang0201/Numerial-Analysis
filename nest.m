@@ -13,6 +13,7 @@
 %ans =
 %
 %   1.250000000000000
+% We can also input an array of x to evaluate
 
 function y = nest(d, c, x, b)
 if nargin<4, b=zeros(d,1); end
